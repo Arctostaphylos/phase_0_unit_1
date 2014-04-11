@@ -6,7 +6,7 @@ responsive web design is the practice of adjusting your website to the size cons
 
 * How do you think smartphones and tablets have changed web design? How do you think new technology will change web design in the future?
 
-The two contstraints of tablets and smartphones is their smaller viewport size, and the fact that they can view webpages in both portrait and landscape orientation. I know that I appreciate when sites have a mobile specific design for my phone as it makes it much easier to use. 
+The two contstraints of tablets and smartphones is their smaller viewport size, and the fact that they can view webpages in both portrait and landscape orientation. I know that I appreciate when sites have a mobile specific design for my phone as it makes it much easier to use. Another consideration for smartphones and tablets is the variation in network speed. Some devices might be using a mobile network, while others are using a speedy wifi connection. If we're designing to maximize the speed at which a page loads, the different network speeds can have a big impact.
 
 * How do you think visually impaired people use the web? Can they? Should we design and development for them?
 
@@ -14,6 +14,8 @@ visually impaired people use screen readers to use the web. It makes sense to de
 
 * What ideas and concepts have resonated with you when learning about the web and design? What seems stupid or doesn't make sense?
 
-I'm still working through how to construct the basic layout of a page using html and css. In order to construct effective media queries, I had to figure out which parts of the css where determining the layout, and that helped me understand how to construct a layout more effectively. In particular it was helpful to see examples of how using percentages instead of fixed pixel widths made elements on the page more responsive to resizing the screen.
+I'm still working through how to construct the basic layout of a page using html and css. In order to construct effective media queries, I had to figure out which parts of the css were determining the layout, and that helped me understand how to construct a layout more effectively. In particular it was helpful to see examples of how using percentages instead of fixed pixel widths made elements on the page more responsive to resizing the screen. I'm also starting to understand the idea of using a grid to plan out a website and then use the grid to determine the size of the different elements.
 
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
+
+Throughout this unit I've found the book "Learning Web Design", by Jennifer Robbins to be a helpful reference.
