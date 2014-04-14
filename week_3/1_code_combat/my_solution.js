@@ -89,6 +89,7 @@ this.moveUp();
 
 //Taunt
 //say "hey you!" x4
+
  this.say("Hey!");
 
 // Lure the ogre right into your arrow trap
@@ -99,7 +100,47 @@ this.say("come and get me");
 this.say("over here");
 this.say("right here");
  
- 
+//Cowardly Taunt
+//move to 63,20
+//say something
+//move to 70,10
+
+this.moveXY(50, 16);
+this.moveXY(63, 20);
+this.moveXY(70, 10);  // This is a safe spot.
+
+this.say("I can lure them in here.");
+
+// Run your soldier out where the ogres can hear you.
+this.moveXY(63, 25);
+// Say something!
+this.say("hey you");
+// Then run back behind the arrow towers for safety.
+this.moveXY(70, 10);
+// You can shift+click on the map to insert coordinates.
+
+//commanding followers
+//move to the middle of the field
+//say follow me
+//say attack
+
+this.moveXY(49, 66);
+this.moveXY(60, 63);
+this.moveXY(75, 63);
+this.say("Hail, friends!");
+
+// Saying anything with "follow" in it will get nearby soldiers
+// to follow you
+this.say("follow");
+this.moveXY(69,52);
+this.moveXY(60,41);
+// Saying anything with "attack" will send nearby troops into
+// a battle mode.
+this.say("attack");
+this.moveXY(75, 63);
+// Make sure Tharin is safe!
+
+
  
  
 // Reflection:
