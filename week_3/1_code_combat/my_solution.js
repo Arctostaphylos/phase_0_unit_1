@@ -1,4 +1,4 @@
-// I worked on this challenge [by myself, with:]
+// I worked on this challenge [by myself]
  
 // For each mission, write the title as a comment. (Shown here). Also include pseudocode as a comment. 
 // Note: to make commenting easier, you can highlight the section you want to comment and hold 
@@ -140,8 +140,32 @@ this.say("attack");
 this.moveXY(75, 63);
 // Make sure Tharin is safe!
 
+//Mobile Artillary
+// move
+// attack ogres at bottom
+// move
+// attack ogres at top right
+// move 
+// attack ogres at top left
+// move 
+// attack big ogres
 
+this.moveXY(30, 26);  // Move into range
+this.attackXY(46, 5); // Shoot once in the middle of the ogres
+this.moveXY(56,32);
+this.attackXY(67, 55);
+this.moveXY(54,24);
+this.attackXY(57,42);
+this.moveXY(48,44);
+this.attackXY(50,64);
+this.moveXY(39,38);
+this.attackXY(42,45);
  
  
 // Reflection:
 // Write your reflection here.
+
+This site kept crashing Firefox, so I ended up working in Chrome. In general, this challenge went pretty smoothly
+for me. The site was pretty explicit about how to use the different commands, and it was just a matter of figuring
+out how to implement them. I am not that crazy about this kind of game, so I found the actual game challenges to be 
+somewhat irritating. 
