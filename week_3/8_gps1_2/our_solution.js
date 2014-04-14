@@ -76,4 +76,8 @@ for (var name in clients){
 //  Your Reflection:
 
 The sticky part of this exercise was wrapping my mind around having an object full of objects. I feel
-like I have a better handle on creating objects and object constructors now. 
+like I have a better handle on creating objects and object constructors now. Object constructors essentially
+create a new kind of object whose job it is to create objects. 
+Working by myself was not 
+as much fun as working through this challenge with someone else. When I had questions, I went back to 
+my notes on JS or the WSschools information on JS. 
