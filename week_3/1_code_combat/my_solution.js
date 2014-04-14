@@ -87,8 +87,17 @@ this.say("hey you!");
 this.moveUp();
 this.moveUp();
 
+//Taunt
+//say "hey you!" x4
+ this.say("Hey!");
 
- 
+// Lure the ogre right into your arrow trap
+// by saying a few more things at him.
+// Anything works!
+this.say("hey");
+this.say("come and get me");
+this.say("over here");
+this.say("right here");
  
  
  
