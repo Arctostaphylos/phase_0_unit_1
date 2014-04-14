@@ -75,7 +75,17 @@ this.moveRight();
 this.moveUp();
 this.moveRight();
 
+//It's a trap
+// move down
+// say "hey you"
+// move up
 
+/ Taunt the Ogre and run for cover!
+this.moveDown();
+this.moveDown();
+this.say("hey you!");
+this.moveUp();
+this.moveUp();
 
 
  
