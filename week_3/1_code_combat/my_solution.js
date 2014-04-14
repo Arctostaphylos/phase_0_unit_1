@@ -32,6 +32,51 @@ this.moveUp();
 
 this.attackNearbyEnemy();
 
+//Drink Me
+// move left
+// attack
+// move down
+// pick up potion
+// move up
+// move right
+// attack
+this.moveRight();
+this.attackNearbyEnemy();
+this.moveRight();
+this.moveDown();
+this.moveUp();
+this.moveRight();
+this.attackNearbyEnemy();
+
+//taunt the guards
+// move right x2
+// move left x2
+
+this.moveRight();
+this.bustDownDoor();
+
+// Delete the "//" in front of each line below.
+this.moveRight();
+this.say("Hey there!");
+this.moveLeft();
+this.moveLeft();
+this.say("Attack!");
+
+// Now get Phoebe to follow through the dungeon.
+this.moveRight();
+this.say("Follow me.");
+this.moveRight();
+this.moveRight();
+this.moveUp();
+this.moveRight();
+this.say("something");
+this.moveDown();
+this.moveRight();
+this.moveUp();
+this.moveRight();
+
+
+
 
  
  
