@@ -235,9 +235,12 @@ who won is the object with the larger health score
 
 
 // Reflection
-// I learned a ton of stuff in this challenge. 
-// 
-// 
+/*I learned a ton of stuff in this challenge, and now feel much more comfortable with the learning objectives. First of all I got a handle on absolute positioning 
+as all the elements are placed absolutely. I figured out how to select differnt divs using the n-th child selector. It helped to number the different divs so that I could keep track of which was which as I was placing them. Secondly, I learned how to make buttons that would initiate functions in JS. Lastly, I learned how to use getElementById to manipulate elements on the page. This was a big step for me as I was previously pretty unclear as to how JS interacted with HTML. 
+
+We initially had trouble with the syntax of how to manipulate html elements using JS, but
+the W3school site helped a lot. The trick was to be sure the element we were trying to select to give it a new image was indeed an img tag that could understand the src attribute. The fight and movement functions were pretty straightforward to write, but my other aha moment was realizing that when I went back to add a proximity requirement (the hero had to be near the villian to fight), I didn't need to change the fight function, but I could write a new function that would call the fight function if conditions were correct. That way each function has a different and distinct job. 
+*/ 
 // 
 // 
 // 
