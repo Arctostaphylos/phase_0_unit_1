@@ -1,20 +1,17 @@
-var total=0
-
 var sum=function(arr) {
+var total=0
 for(i=0; i<arr.length; i++) {
 total+=arr[i];
-console.log(i);
 }
+console.log(total);
+return total;
 }
-
-//Test 2
 
 var mean=function(arr) {
-total=sum(arr);
+var total=sum(arr);
 answer=total/arr.length;
 console.log(answer);
-}
-
+};
 //Test 3
 
 var median=function(arr) {
