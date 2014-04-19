@@ -1,16 +1,16 @@
 var sum=function(arr) {
-var total=0
-for(i=0; i<arr.length; i++) {
-total+=arr[i];
-}
-console.log(total);
-return total;
+  var total=0
+  for(i=0; i<arr.length; i++) {
+    total+=arr[i];
+  }
+  console.log(total);
+  return total;
 }
 
 var mean=function(arr) {
-var total=sum(arr);
-answer=total/arr.length;
-console.log(answer);
+  var total=sum(arr);
+  answer=total/arr.length;
+  console.log(answer);
 };
 //Test 3
 
