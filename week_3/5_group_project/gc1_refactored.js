@@ -15,12 +15,14 @@ var mean=function(arr) {
 //Test 3
 
 var median=function(arr) {
-index.sort;
-if(arr[i]%2===1){
-answer=(arr.length/2).floor
-console.log(answer)
-} else {
-answer=((arr.length/2)+1).floor
-console.log(answer)
-}
+  arr.sort;
+  if(arr.length%2===1){
+    var index=Math.floor(arr.length/2);
+    answer = arr[index];   
+  } 
+  else {
+    var index=(arr.length/2);
+    answer = (arr[index] + arr[index-1])/2;
+  }
+  console.log(answer)
 }
