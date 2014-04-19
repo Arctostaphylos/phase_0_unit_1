@@ -1,4 +1,4 @@
-// Test 1
+// Test 1 user story: When I give you a set of numbers, you print out the sum of all the numbers.
 var sum=function(arr) {
   var total=0
   for(i=0; i<arr.length; i++) {
@@ -8,14 +8,14 @@ var sum=function(arr) {
   return total;
 }
 
-//Test 2
+//Test 2 user story: When I give you a set of numbers, you print out the arithmetic mean of all the numbers.
 var mean=function(arr) {
   var total=sum(arr);
   answer=total/arr.length;
   console.log(answer);
 };
 
-//Test 3
+//Test 3 user story: When I give you a set of numbers, you print out the median number.
 
 var median=function(arr) {
   arr.sort;
